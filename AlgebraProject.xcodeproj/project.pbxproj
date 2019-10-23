@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E5573BDA2360919E00B57016 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5573BD92360919E00B57016 /* TableViewCell.swift */; };
+		E5573BDC2360986300B57016 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5573BDB2360986300B57016 /* DetailViewController.swift */; };
+		E5573BDE23609B5B00B57016 /* AnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5573BDD23609B5B00B57016 /* AnimationViewController.swift */; };
+		E5573BE02360AB2700B57016 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5573BDF2360AB2700B57016 /* Extensions.swift */; };
 		E59B47F12360854D00F446FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59B47F02360854D00F446FE /* AppDelegate.swift */; };
 		E59B47F32360854D00F446FE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59B47F22360854D00F446FE /* SceneDelegate.swift */; };
 		E59B47F52360854D00F446FE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59B47F42360854D00F446FE /* ViewController.swift */; };
@@ -36,6 +40,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E5573BD92360919E00B57016 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		E5573BDB2360986300B57016 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		E5573BDD23609B5B00B57016 /* AnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationViewController.swift; sourceTree = "<group>"; };
+		E5573BDF2360AB2700B57016 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		E59B47ED2360854D00F446FE /* AlgebraProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlgebraProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E59B47F02360854D00F446FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E59B47F22360854D00F446FE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -104,7 +112,11 @@
 				E59B47F02360854D00F446FE /* AppDelegate.swift */,
 				E59B47F22360854D00F446FE /* SceneDelegate.swift */,
 				E59B47F42360854D00F446FE /* ViewController.swift */,
+				E5573BD92360919E00B57016 /* TableViewCell.swift */,
+				E5573BDB2360986300B57016 /* DetailViewController.swift */,
+				E5573BDD23609B5B00B57016 /* AnimationViewController.swift */,
 				E59B47F62360854D00F446FE /* Main.storyboard */,
+				E5573BDF2360AB2700B57016 /* Extensions.swift */,
 				E59B47FC2360854F00F446FE /* Assets.xcassets */,
 				E59B47FE2360854F00F446FE /* LaunchScreen.storyboard */,
 				E59B48012360854F00F446FE /* Info.plist */,
@@ -262,8 +274,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5573BDA2360919E00B57016 /* TableViewCell.swift in Sources */,
 				E59B47FB2360854D00F446FE /* AlgebraProject.xcdatamodeld in Sources */,
+				E5573BDE23609B5B00B57016 /* AnimationViewController.swift in Sources */,
+				E5573BE02360AB2700B57016 /* Extensions.swift in Sources */,
 				E59B47F52360854D00F446FE /* ViewController.swift in Sources */,
+				E5573BDC2360986300B57016 /* DetailViewController.swift in Sources */,
 				E59B47F12360854D00F446FE /* AppDelegate.swift in Sources */,
 				E59B47F32360854D00F446FE /* SceneDelegate.swift in Sources */,
 			);
